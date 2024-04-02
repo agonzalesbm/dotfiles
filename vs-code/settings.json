@@ -1,0 +1,27 @@
+{
+  "editor.fontFamily": "'Agave Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+
+  // apparience
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.suggest.insertMode": "replace",
+
+  // nvim
+  "editor.lineNumbers": "relative",
+  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
+  "vim.highlightedyank.textColor": "white",
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["leader", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["leader", "b", "d"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    }
+  ]
+}
