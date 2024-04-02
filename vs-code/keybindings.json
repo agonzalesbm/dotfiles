@@ -46,7 +46,7 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "alt+j",
+    "key": "alt+k",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -56,7 +56,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "alt+k",
+    "key": "alt+j",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
