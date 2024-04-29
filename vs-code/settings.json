@@ -9,6 +9,7 @@
 
   // nvim
   "editor.lineNumbers": "relative",
+  "vim.ignorecase": true,
   "vim.useSystemClipboard": true,
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
