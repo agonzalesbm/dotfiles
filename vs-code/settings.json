@@ -1,13 +1,18 @@
 {
-  "editor.fontFamily": "'Agave Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontFamily": "'Iosevka Nerd Font', 'Agave Nerd Font','SF Pro',  'Droid Sans Mono', 'monospace', monospace",
 
   // apparience
   "editor.mouseWheelZoom": true,
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
   "editor.suggest.insertMode": "replace",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.cursorBlinking": "phase",
+  "editor.guides.bracketPairs": "active",
 
   // nvim
+  "vim.easymotion": true,
+  "vim.incsearch": true,
   "editor.lineNumbers": "relative",
   "vim.ignorecase": true,
   "vim.useSystemClipboard": true,
@@ -23,6 +28,36 @@
     {
       "before": ["leader", "b", "d"],
       "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<S-h>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-k>"],
+      "command": ["editor.action.showHover"]
     }
-  ]
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["<C-n>"],
+      "command": ["editor.action.addSelectionToNextFindMatch"]
+    }
+  ],
+  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.colorTheme": "Ayu Dark",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "editor.fontLigatures": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
