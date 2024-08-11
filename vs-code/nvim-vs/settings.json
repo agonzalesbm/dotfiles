@@ -1,0 +1,57 @@
+{
+  // nvim
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.compositeKeys": {},
+  "vscode-neovim.neovimInitVimPaths.linux": "/home/agonzalesbm/.config/nvim-vs/init.lua",
+
+  // apparience
+  "editor.fontFamily": "'ZedMono Nerd Font', 'Iosevka Nerd Font', 'Agave Nerd Font', 'SF Pro',  'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 16,
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.cursorBlinking": "phase",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.colorTheme": "Ayu Mirage",
+
+  // editor structure
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "relative",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.overviewRulerBorder": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabSizing": "fixed",
+  "workbench.editor.tabSizingFixedMaxWidth": 100,
+  "editor.guides.indentation": false,
+
+  // code
+  "editor.suggest.insertMode": "replace",
+  "editor.tabSize": 2,
+
+  // zen mode
+  "zenMode.fullScreen": true,
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+
+  // other config
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
+
